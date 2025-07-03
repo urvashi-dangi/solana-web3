@@ -19,9 +19,14 @@ dependencies:
     # path: ../solana_buffer
   solana_common: ^0.1.0
     # path: ../solana_common
-  solana_jsonrpc: ^0.0.1
+#  solana_jsonrpc: ^0.0.1
     # path: ../solana_jsonrpc
-    
+  solana_jsonrpc:
+    git:
+      url: https://github.com/urvashi-dangi/solana_jsonrpc.git
+      ref: master
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
